@@ -1,0 +1,21 @@
+LIBRARY REXXVIO INITINSTANCE LONGNAMES
+PROTMODE
+DESCRIPTION 'REXXVIO Utilities - (c) Copyright Martin Lafaix 1996'
+DATA MULTIPLE NONSHARED
+STACKSIZE 32768
+EXPORTS
+     VIOLOADFUNCS      = VioLoadFuncs          @1
+     VIODROPFUNCS      = VioDropFuncs          @2
+     VIOSCROLLLEFT     = RxVioScrollLeft       @3 
+     VIOSCROLLRIGHT    = RxVioScrollRight      @4
+     VIOSCROLLDOWN     = RxVioScrollDown       @5
+     VIOSCROLLUP       = RxVioScrollUp         @6
+     VIOREADCELLSTR    = RxVioReadCellStr      @7
+     VIOWRTCELLSTR     = RxVioWrtCellStr       @8
+     VIOWRTCHARSTR     = RxVioWrtCharStr       @9
+     VIOWRTCHARSTRATTR = RxVioWrtCharStrAttr   @10
+     VIOGETCURTYPE     = RxVioGetCurType       @11
+     VIOSETCURTYPE     = RxVioSetCurType       @12
+     VIOWRTNATTR       = RxVioWrtNAttr         @13
+     VIOWRTNCELL       = RxVioWrtNCell         @14
+     VIOWRTNCHAR       = RxVioWrtNChar         @15
